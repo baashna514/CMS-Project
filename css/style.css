@@ -1,0 +1,356 @@
+body{
+	font-family: 'Oswald', sans-serif;
+	background-color: #EEEDED;
+}
+
+a{
+	color: #f37135;
+}
+a:hover{
+	color: #f37135;
+}
+.navbar-brand img{
+	margin-top: -20px;
+}
+.jumbotron{
+	height: 200px;
+	overflow: hidden;
+	color: white;
+}
+.jumbotron img{
+	width: 100%;
+}
+.jumbotron #details{
+	position: absolute;
+}
+.jumbotron #details h1{
+	color: white;
+}
+.jumbotron #details span{
+	color: #f37135;
+}
+
+section .widgets{
+	margin-bottom: 20px;
+}
+
+.popular{
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	border: 1px solid #E3E3E3;
+}
+.popular ul li{
+	list-style: none;
+}
+.popular .details{
+	margin-left: -12px;
+}
+.popular .details p{
+	font-family: arial;
+	font-size: 11px;
+}
+.popular img{
+	width: 100px;
+	margin-top: 12px;
+}
+.post{
+	background-color: white;
+	border: 1px solid #E3E3E3;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.post .post-title{
+	padding: 5px 20px 20px 20px;
+	border-left: 1px solid #E3E3E3;
+}
+
+.post .post-title span{
+	color: #f37135;
+	font-weight: 100;
+	margin-left: 10px;
+}
+.post .profile-picture{
+	padding: 20px;
+}
+.post .profile-picture img{
+	width: 80%;
+}
+.post > a > img{
+	width: 100%;
+	
+}
+.post .post-date{
+	text-align: center;
+	padding: 16px;
+}
+.post .post-date .day{
+	font-size: 30px;
+	color: #f37135;
+}
+.post .post-date .year{
+	font-weight: 100;
+}
+.post .desc{
+	font-family: arial;
+	font-weight: 100;
+	padding: 15px;
+	line-height: 20px;
+}
+.post > a.btn{
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+.post .bottom{
+	padding:10px 20px;
+	border-top: 1px solid #E3E3E3;
+	color: #C6C6C6;
+}
+
+.post .bottom .first{
+	margin-right: 20px;
+}
+.post .bottom .sec{
+	margin-left: 20px;
+}
+
+nav#pagination{
+	text-align: center;
+}
+.pagination > li > a{
+	color: #f37135;
+	padding: 15px 25px;
+	font-size: 18px;
+}
+
+.contact-form{
+	background-color: white;
+	padding: 35px 25px;
+	margin-top: 30px;
+}
+.contact-form textarea{
+	resize: none;
+}
+.btn-primary{
+	background-color: #f37135;
+	border-color: #f76b2a;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #f37135;
+    border-color: #f76b2a;
+}
+.btn.focus, .btn:focus, .btn:hover {
+    color: #333;
+    text-decoration: none;
+}
+.contact-form h2{
+	color: #f37135;
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
+.related-posts{
+	background-color: white;
+	padding: 20px;
+	border-left: 1px solid #E3E3E3;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.related-posts img{
+	width: 100%;
+}
+.related-posts h3{
+	color: #f37135;
+}
+
+.author{
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-left: 1px solid #E3E3E3;
+	border-radius: 5px;
+}
+.author img{
+	width: 100%;
+}
+.author h3{
+	color: #f37135;
+}
+.author h4{
+	color: #f37135;
+}
+.author p{
+	font-weight: 100;
+}
+
+.comment{
+		background-color: white;
+		padding: 20px;
+		margin-bottom: 20px;
+		border-left: 1px solid #E3E3E3;
+		border-radius: 5px;
+	}
+.comment img{
+	width: 80%;
+}
+.comment h3{
+	color: #f37135;
+}
+.comment h4{
+	color: #f37135;
+}
+.comment p{
+	font-weight: 100;
+}
+.comment .single-comment{
+	margin-bottom: 20px;
+}
+
+.comment-box{
+	background-color: white;
+	padding: 35px 25px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border-left: 1px solid #E3E3E3;
+	border-radius: 5px;
+
+}
+.comment-box textarea{
+	resize: none;
+}
+.comment-box h2{
+	color: #f37135;
+	margin-top: -10px;
+	margin-bottom: 5px;
+}
+
+
+@media (max-width: 992px){
+	body{
+		background-color: orange;
+	}
+	.post .post-title{
+		margin-top: -30px;
+		text-align: center;
+		border-left: none;
+	}
+	.post .profile-picture{
+		text-align: center;
+	}
+	.post .profile-picture img{
+		width: 30%;
+		margin-top: -30px;
+		margin-bottom: 10px;
+	}
+
+	.author{
+		background-color: white;
+		padding: 20px;
+		margin-bottom: 20px;
+		border-left: 1px solid #E3E3E3;
+		border-radius: 5px;
+	}
+	.author img{
+		width: 60%;
+		
+		margin-top: 5px;
+	}
+	.author h4{
+	
+		color: #f37135;
+		text-decoration: underline;
+	}
+	.author p{
+	
+		font-weight: 100;
+	}
+
+
+}
+
+@media (max-width: 786px){
+	body{
+		background-color: red;
+	}
+	.jumbotron #details h1{
+		font-size: 18px;
+		margin: -0.1px;
+	}
+	.jumbotron p {
+	    margin-bottom: 15px;
+	    font-weight: 200;
+	    font-size: 14px;
+}
+	.jumbotron #details{
+		margin-top: 20px;
+	}
+	.post .post-title{
+		margin-top: -30px;
+		text-align: center;
+	}
+	.post .profile-picture{
+		text-align: center;
+	}
+	.post .profile-picture img{
+		width: 20%;
+		margin-top: -30px;
+		margin-bottom: 10px;
+	}
+	.pagination > li > a{
+		font-size: 10px;
+	}
+	.navbar-inverse .navbar-nav > li > a{
+		text-align: center;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+		text-align: center;
+	}
+
+	.author{
+		background-color: white;
+		padding: 20px;
+		margin-bottom: 20px;
+		border-left: 1px solid #E3E3E3;
+		border-radius: 5px;
+		text-align: center;
+	}
+	.author img{
+		width: 30%;
+	}
+	.author h4{
+		color: #f37135;
+		text-align: center;
+		text-decoration: underline;
+	}
+	.author p{
+		text-align: center;
+		font-weight: 100;
+	}
+
+	.comment{
+		background-color: white;
+		padding: 20px;
+		margin-bottom: 20px;
+		border-left: 1px solid #E3E3E3;
+		border-radius: 5px; 
+		text-align: center;
+	}
+	.comment img{
+		width: 30%;
+	}
+	.comment h3{
+		color: #f37135;
+	}
+	.comment h4{
+		color: #f37135;
+	}
+	.comment p{
+		font-weight: 100;
+	}
+	.comment .single-comment{
+		margin-bottom: 20px;
+
+	}
+}
+
